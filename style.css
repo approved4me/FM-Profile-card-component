@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* RESET END*/
+
+/* COLORS */
+:root {
+
+  --primary_bright-orange: hsl(31, 77%, 52%);
+  --primary_cyan: hsl(184, 100%, 22%);
+  --primary_dark-cyan: hsl(179, 100%, 13%);
+
+  --neutral_paragraphs: hsla(0, 0%, 100%, 0.75);
+  --neutral_light-gray: hsl(0, 0%, 95%);
+}
+
+/* MAIN START*/
+
+/* FOOTER START */
+.attribution {
+  color: #000;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--primary_bright-orange);
+  text-decoration: none;
+}
